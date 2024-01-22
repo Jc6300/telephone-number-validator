@@ -1,0 +1,70 @@
+body {
+	font-family: "Arial", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #f0f0f0;
+}
+
+#iphone {
+	width: 375px;
+	height: 667px;
+	border: 16px black solid;
+	border-radius: 36px;
+	margin: auto;
+	overflow: hidden;
+	background: #f0f0f0;
+	position: relative;
+}
+
+#screen {
+	width: 100%;
+	height: 100%;
+	background: white;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+#user-input {
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 80%;
+	margin-top: 20px;
+}
+
+#check-btn,
+#clear-btn {
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+#check-btn {
+	background-color: #4caf50;
+	color: white;
+	margin-right: 10px;
+}
+
+#clear-btn {
+	background-color: #f44336;
+	color: white;
+}
+
+#results-div {
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 80%;
+	background-color: white;
+}
